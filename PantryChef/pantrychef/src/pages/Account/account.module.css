@@ -1,0 +1,41 @@
+.container{
+    background-color: var(--background-color);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--background-color);
+    height: 200px;
+    position: relative;
+}
+
+.userContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.user{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px 0;
+    display:flex;
+    align-items:center;
+}
+.nickname{
+    font-size: 18px;
+    font-weight: 500;
+}
+.level{
+    font-size: 14px;
+    color: #999;
+    margin-top: 4px;
+}
+.slogan{
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 4px;
+}

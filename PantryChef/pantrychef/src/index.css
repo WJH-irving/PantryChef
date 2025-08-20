@@ -1,0 +1,63 @@
+/* 基础样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 全局字体设置 */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  background-color: #fff9f0;
+}
+
+/* 全局颜色定义 */
+:root {
+  --primary-color: #e67e22;
+  --secondary-color: #d35400;
+  --background-color: #fff9f0;
+  --text-color: #333;
+  --light-text: #7f8c8d;
+  /* 新增的主题辅助变量 */
+  --subtext-color: #666;
+  --muted-text-color: #999;
+  --subtle-text-color: #bbb;
+  --tag-bg: #f0f0f0;
+  --input-bg: #f5f5f5;
+  --card-bg: #fff;
+  --muted-bg: #f8f9fa;
+  --border-color: #eee;
+}
+
+/* 全局动画效果 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 基础组件样式 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* 响应式基础设置 */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
